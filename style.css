@@ -1,51 +1,78 @@
+.contain {
+    width: 960px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+div.content {
+    display: inline-block;
+}
+
+p {
+    width: 420px;
+    height: 300px;
+    float: right;
+    overflow: scroll;
+    clear: both;
+}
+
+span {
+    font-weight: bold;
+}
+
+p span {
+    display: block;
+}
+
+button {
+    float: right;
+    /* display: inline-block; */
+    /* float: right; */
+    padding: 10px 0 10px 0;
+    width: 140px;
+    background-color: black;
+    /* position: relative; */
+    color: white;
+}
+
 nav {
-    background-color: rgb(65, 65, 65);
-    border: 2px solid orange;
-    overflow: hidden;
-    margin: 0;
+    background-color: rgb(60, 60, 60);
     height: 100px;
+    margin: 0;
+    /* overflow: hidden; */
 }
 
 ul li {
+    list-style: none;
     float: left;
-    list-style-type: none;
-    padding: 0 45px;
-    border: 2px solid red;
-    margin: 0;
     padding: 0 25px 0 40px;
 }
 
 ul li img {
-    padding: 5px 0 5px 0;
-    margin: 0;
+    margin: 15px 0 15px 0;
 }
 
 li a {
-   color: white;
+    color: white;
+    /* border: 3px solid orange; */
 }
 
-.grid-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 30px;
-    /* grid-row-gap: 0; */
-    /* border: 2px solid orange; */
-  }
-
-div.main {
-    width: 960px;
+img.hero {
+    margin: 30px 0 30px 0;
 }
 
-div.hero {
+img.three {
+    margin: 0 17px 30px 0;
+}
+
+section {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(60, 60, 60);
+    margin: 30px 0 0 0;
+}
+
+footer {
+    margin: 30px 0 30px 0;
     text-align: center;
-    display: block;
-    padding: 30px 0 30px 0;
-}
-
-img.banner {
-    display: block;
 }
